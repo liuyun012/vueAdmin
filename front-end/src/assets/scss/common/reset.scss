@@ -1,0 +1,28 @@
+// @Author: qinzhenxing
+// @Date:   2018-01-02T16:32:34+08:00
+// @Last modified by:   qinzhenxing
+// @Last modified time: 2018-01-02T18:20:51+08:00
+@charset "UTF-8";
+html {font-size: 62.5%;font-family: Tahoma,Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1"; font-weight:normal;}
+html,body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,p,blockquote,table,th,td,menu,div,section{margin:0;padding:0;box-sizing:border-box;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-weight:normal;}
+button, input, select, textarea { font-size:100%; }
+table{border-collapse:collapse;border-spacing:0;}
+ul,ol,menu{list-style:none}
+fieldset,img{border:none}
+img,object,select,input,textarea,button{vertical-align:middle}
+input,textarea,select,address,caption,cite,code,dfn,em,i,b,strong,small,th,var,abbr{font-size:100%;font-style:normal;outline: none;border:0 none;}
+caption,th {text-align: left;}
+select{appearance:none;}
+article,aside,footer,header,hgroup,nav,section,figure,figcaption {display: block;}
+code, kbd, pre, samp, tt { font-family: Consolas,"Courier New", Courier, monospace;}
+address, cite, dfn, em, var,i {font-style: normal;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content:"";content: none;}
+a {
+	color:#000; text-decoration:none;cursor: pointer;
+	-webkit-tap-highlight-color:transparent;
+	&:hover, &:focus {text-decoration:none;outline:none;}
+}
+a {user-select:none;}
+button {border: none;background: none;font: inherit;}

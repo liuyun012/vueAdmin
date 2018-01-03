@@ -1,0 +1,14 @@
+// @Author: qinzhenxing
+// @Date:   2018-01-02T15:00:20+08:00
+// @Last modified by:   qinzhenxing
+// @Last modified time: 2018-01-02T18:09:41+08:00
+
+// 通用样式文件
+@import "./common/reset.scss";           // 重置浏览器样式
+@import "./common/mixins.scss";          // 常用scss函数封装
+
+// 通用组件样式文件
+@import "./components/header.scss";      // 顶导样式
+
+// 模块页面样式文件 -- web端
+@import './views/admin.scss';            // 首页
