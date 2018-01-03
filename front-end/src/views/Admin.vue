@@ -2,7 +2,7 @@
 @Author: qinzhenxing
 @Date:   2018-01-02T17:03:59+08:00
 @Last modified by:   qinzhenxing
-@Last modified time: 2018-01-02T18:07:08+08:00
+@Last modified time: 2018-01-03T14:36:29+08:00
 -->
 <template lang="html">
   <div class='admin'>
@@ -41,6 +41,22 @@ export default {
   name: 'admin',
   components: {
     'my-header': Header
+  },
+  computed: {
+    user() {
+      return this.$store.state.user;
+    },
+  },
+  methods: {
+    // 跳转控制
+    controlJump(target) {
+      this.$router.push(target);
+      // if (this.user.role < 10) {
+      //   this.$message.warning('权限不够，努力升级');
+      // } else {
+      //   this.$router.push(target);
+      // }
+    }
   },
 }
 </script>
