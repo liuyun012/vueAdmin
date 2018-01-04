@@ -2,7 +2,7 @@
 @Author: qinzhenxing
 @Date:   2018-01-03T10:50:32+08:00
 @Last modified by:   qinzhenxing
-@Last modified time: 2018-01-03T15:27:33+08:00
+@Last modified time: 2018-01-04T16:31:33+08:00
 -->
 <template lang="html">
   <div class="admin-list">
@@ -101,7 +101,7 @@ export default {
   created() {
     this.load = true;
     this.api.getGoods().then((res) => {
-      this.tableData = res.data.goods;
+      this.tableData = res.data;
       this.load = false;
     });
   },

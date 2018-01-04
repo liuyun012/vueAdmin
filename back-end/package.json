@@ -1,0 +1,14 @@
+{
+  "name": "vue-admin-back-end",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Qzx",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}

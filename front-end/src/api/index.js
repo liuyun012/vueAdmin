@@ -2,14 +2,18 @@
  * @Author: qinzhenxing
  * @Date:   2018-01-03T10:42:56+08:00
  * @Last modified by:   qinzhenxing
- * @Last modified time: 2018-01-03T15:25:20+08:00
+ * @Last modified time: 2018-01-04T16:05:16+08:00
  */
  import http from './http'
 
  export default {
    // 获取商品列表
    getGoods() {
-     return http.get('/goods/list.json')
+     return http.get('/api/getgoods/list')
+   },
+   // 获取商品详情
+   getDetail(goodsId) {
+     return http.get('/api/getDetail/' + goodsId)
    },
 
    // 获取报名表单中的校区列表
